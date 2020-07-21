@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+/* ############### body section ################# */
+
+.body{
+    background-color: hsl(270, 20%, 96%);
+    height: 100vh;
+    position: relative;
+    overflow-x: hidden;
+
+    
+}
+
+.right-pattern{
+    position: absolute;
+    width: 25%;
+    height: 80%;
+    background: linear-gradient(0deg, hsl(264, 100%, 61%) 0%, hsl(293, 100%, 63%) 100%);
+    top: 0;
+    left: -10%;
+    z-index: 0;
+    border-radius: 0 0 150px 150px;
+}
+.left-pattern{
+    position: absolute;
+    width: 25%;
+    height: 80%;
+    background:  hsl(270, 17%, 93%);
+    bottom: 0;
+    right: -10%;
+    z-index: 0;
+    border-radius: 150px 150px 0 0;
+}
+
+
+ /* ################## avtar section ############### */
+
+.profile {
+    display: flex;
+    align-items: center;
+    padding: 20px 12px 12px 12px ;
+    background: linear-gradient(to left,hsl(293, 100%, 63%),hsl(264, 100%, 61%));
+}
+
+.profile-img{
+    display: flex;
+    align-items: center;
+}
+
+.profileimg{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 10px;
+
+}
+
+.profile-img h1{
+    font-size: 14px;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 2px;
+}
+
+.profile-img h5{
+    font-size: 8px;
+    color: hsl(276, 100%, 81%);
+}
+
+.profileimg img {
+    width: 100%;
+    height: 100%;
+}
+
+.profile i{
+    color: hsl(0, 0%, 100%);
+}
+
+.dots {
+    margin-left: auto;
+}
+
+.dots span {
+    display: block;
+    margin: 2px ;
+    height: 2px;
+    width: 3px;
+    border-radius: 50%;
+    background-color:  hsl(0, 0%, 100%);
+}
+
+.outer-body{
+    position: relative;
+    width: 250px;
+    height: 570px;
+    border: 10px solid white;
+    border-radius: 30px;
+}
+
+.inner-body{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    /* top: 0px;
+    right: 10px;
+    bottom: 10px;
+    left: 0px; */
+    border-radius: 20px;
+    background-color:  hsl(270, 20%, 96%);
+    /* border:  solid red; */
+    /* outline:green; */
+    overflow: hidden;
+}
+
+
+/* left chat */
+
+.left-chat p{
+    display: inline-block;
+    font-size: 8px;
+    font-weight: 500;
+    padding: 6px 12px;
+    letter-spacing: .5px;
+    background-color: hsl(268, 19%, 87%);
+    border-radius: 15px 15px 15px 5px;
+    color: hsl(276, 55%, 52%);
+    line-height: 2;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+
+/* right chat  */
+.right-chat {
+    text-align: right;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.right-chat p{
+    display: inline-block;
+    font-size: 8px;
+    font-weight: 500;
+    padding: 6px 12px;
+    letter-spacing: .5px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px 15px 5px 15px;
+    color: hsl(271, 15%, 43%);
+    line-height: 2;
+    margin-top: 10px;
+    margin-right: 10px;
+
+}
+
+.images {
+    margin-right: 10px;
+}
+
+.images img{
+    width: 50px;
+    border-radius: 15px;
+}
+
+.input-btn{
+    display: inline-flex;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 15px 15px 15px 5px;
+    padding: 6px 12px;
+    align-items: center;
+    background: linear-gradient(to left,hsl(293, 100%, 63%),hsl(264, 100%, 61%));
+}
+
+
+
+.input-btn p{
+    font-size: 8px;
+    color:  hsl(270, 20%, 96%);
+    margin: 0 30px 0 10px;
+}
+
+.input-btn span {
+    font-weight: 700;
+    color:  hsl(270, 20%, 96%);
+}
+
+.button{
+    /* position: relative; */
+    /* display: flex; */
+    align-items: center;
+}
+
+.button span {
+    /* position: absolute; */
+    right: 0em;
+    bottom: 0;
+    width: 25px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    background-color:  hsl(271, 36%, 24%);
+    border-radius: 50%;
+}
+
+.button span {
+    color: white;
+    position: absolute;
+    top: 13px;
+    right: 17px;
+}
+
+.button {
+    position: relative;
+}
+
+
+
+
+.btn{
+    width: 90%;
+    border: none;
+    border-radius: 25px;
+    margin: 10px;
+    height: 32px;
+    background-color: #fff;
+    color:   hsl(206, 6%, 79%);
+    padding: 10px 12px;
+    position: relative;
+}
+
+
+/* ################### notch ############# */
+
+.notch{
+    position: absolute;
+    width: 50%;
+    height: 25px;
+    border-radius: 25px;
+    background-color: white;
+    z-index: 23;
+    margin: 0 auto;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -10px;
+}
+
+.text-view h1{
+    color: hsl(271, 36%, 24%);
+    font-weight: 500;
+    margin-bottom: 2rem;
+
+}
+
+.text-view p {
+    color:  hsl(270, 7%, 64%);
+}
+
+.text-view {
+    max-width: 400px;
+
+}
+
+
+.ui-container{
+    
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 1;
+    align-items: center;
+    height: 100vh;
+    max-width: 60%;
+    margin: 0 auto;
+
+
+}
+
+@media(max-width:776px){
+    .ui-container{
+        flex-direction: column;
+    }
+
+    .body{
+        padding-top: 3rem;
+    }
+
+    .text-view {
+        text-align: center;
+        margin-top: 2rem;
+        padding-bottom: 3rem;
+    }
+}
