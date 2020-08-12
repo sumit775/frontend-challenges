@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | [social-media-dashboard-with-theme-switcher-master]</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="topbg"></div>
+  <div class="container">
+  
+    <!-- upersection -->
+
+    <section class="upper">
+      <div class="topheading">
+        <div class="heading">
+          <h2>Social Media Dashboard</h2>
+          <h5>Total Followers: 23,004</h5>
+        </div>
+        <div class="themechanger">
+          <h5>Dark Mode</h5>
+          <input type="checkbox" name="theme" id="themebtn" >
+          <label class="slidebtn" for="themebtn">
+            <div class="circlebtn"></div>
+          </label>
+        </div>
+      </div>
+
+      <!-- upper grid container -->
+      
+      <div class="gridcontainer top_grid">
+        <div class="box main_box">
+          <div class="platform_id">
+            <img src="./images/icon-facebook.svg" alt="">
+            <p>@nathanf</p>
+          </div>
+          <div class="counting_number">
+            <h1>1987</h1>
+            <p>Followers</p>
+          </div>
+          <div class="today_counting">
+            <img src="./images/icon-up.svg" alt="">
+            <h6>12 Today</h6>
+          </div>
+        </div>
+        <div class="box main_box">
+          <div class="platform_id">
+            <img src="./images/icon-twitter.svg" alt="">
+            <p>@nathanf</p>
+          </div>
+          <div class="counting_number">
+            <h1>1044</h1>
+            <p>Followers</p>
+          </div>
+          <div class="today_counting">
+            <img src="./images/icon-up.svg" alt="">
+            <h6>99 Today</h6>
+          </div>
+        </div>
+        <div class="box main_box">
+          <div class="platform_id">
+            <img src="./images/icon-instagram.svg" alt="">
+            <p>@realnathanf</p>
+          </div>
+          <div class="counting_number">
+            <h1>11k</h1>
+            <p>Followers</p>
+          </div>
+          <div class="today_counting">
+            <img src="./images/icon-up.svg" alt="">
+            <h6>1099 Today</h6>
+          </div>
+        </div>
+        <div class="box main_box">
+          <div class="platform_id">
+            <img src="./images/icon-youtube.svg" alt="">
+            <p>Nathan F.</p>
+          </div>
+          <div class="counting_number">
+            <h1>8239</h1>
+            <p>Subscribers</p>
+          </div>
+          <div class="today_counting">
+            <img src="./images/icon-up.svg" alt="">
+            <h6>144 Today</h6>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- overview today  -->
+
+     <section class="today_overview">
+       <div class="overview_heading">
+         <h1>  Overview - Today</h1>
+       </div>
+
+       <div class="gridcontainer overview_grid">
+         <div class="box card">
+           <div class="views">
+             <h6>Page Views</h6>
+             <img src="./images/icon-facebook.svg" alt="">
+           </div>
+           <div class="numbers">
+             <p>87</p>
+             <div>
+               <img src="./images/icon-up.svg" alt="">
+              <span>3%</span>
+             </div>
+           </div>
+         </div>
+         <div class="box card">
+           <div class="views">
+             <h6>Likes</h6>
+             <img src="./images/icon-facebook.svg" alt="">
+           </div>
+           <div class="numbers">
+             <p>52</p>
+             <div class="red">
+               <img src="./images/icon-up.svg" alt="">
+              <span>2%</span>
+             </div>
+           </div>
+         </div>
+         <div class="box card">
+           <div class="views">
+             <h6>Likes</h6>
+             <img src="./images/icon-instagram.svg" alt="">
+           </div>
+           <div class="numbers">
+             <p>5462</p>
+             <div>
+               <img src="./images/icon-up.svg" alt="">
+              <span>2257%</span>
+             </div>
+           </div>
+         </div>
+         <div class="box card">
+           <div class="views">
+             <h6>Profile Views</h6>
+             <img src="./images/icon-instagram.svg" alt="">
+           </div>
+           <div class="numbers">
+             <p>52k</p>
+             <div>
+               <img src="./images/icon-up.svg" alt="">
+              <span>1375%</span>
+             </div>
+           </div>
+         </div>
+         <div class="box card">
+           <div class="views">
+             <h6>Retweets</h6>
+             <img src="./images/icon-twitter.svg" alt="">
+           </div>
+           <div class="numbers">
+             <p>117</p>
+             <div>
+               <img src="./images/icon-up.svg" alt="">
+              <span>303%</span>
+             </div>
+           </div>
+         </div>
+         <div class="box card">
+           <div class="views">
+             <h6>Likes</h6>
+             <img src="./images/icon-twitter.svg" alt="">
+           </div>
+           <div class="numbers">
+             <p>507</p>
+             <div>
+               <img src="./images/icon-up.svg" alt="">
+              <span>553%</span>
+             </div>
+           </div>
+         </div>
+         <div class="box card">
+           <div class="views">
+             <h6>Likes</h6>
+             <img src="./images/icon-youtube.svg" alt="">
+           </div>
+           <div class="numbers">
+             <p>107</p>
+             <div  class="red">
+               <img src="./images/icon-up.svg" alt="">
+              <span>19%</span>
+             </div>
+           </div>
+         </div>
+         <div class="box card">
+           <div class="views">
+             <h6>Total Views</h6>
+             <img src="./images/icon-youtube.svg" alt="">
+           </div>
+           <div class="numbers">
+             <p>1407</p>
+             <div  class="red">
+               <img src="./images/icon-up.svg" alt="">
+              <span>12%</span>
+             </div>
+           </div>
+         </div>
+       </div>
+
+       
+     </section>
+
+    </div>
+
+    
+  </div>
+
+
+
+  
+</body>
+<script src="script.js"></script>
+</html>
